@@ -1,0 +1,23 @@
+{
+  "name": "@ppip-tools/tarik-sp2dk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "@cahyoads",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xlsx": "^0.16.9"
+  },
+  "bin": {
+    "tarik-sp2dk": "./bin/index.js"
+  },
+  "preferGlobal": true
+}
